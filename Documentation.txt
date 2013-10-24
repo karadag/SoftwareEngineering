@@ -1,19 +1,56 @@
 Kulüp Uygulaması 
 
 Amaç : Üniversite kulüpleri tarafından yapılan toplantılar ve düzenlenen etkinliklerin kolay bir şekilde planlanmasını sağlayarak zamandan tasarruf sağlamak, yeni yönetimin önceki yöneticilerle iletişimi kolaylaştırmak, katılımcıları da kolay bir şekilde kulüp etkinliklerinden haberdar etmektir. 
+Kullanıcı Tipleri:
+    - Başkan
+    - Kulüp Yöneticileri (yönetimdeki resmi olarak belli olan 5 kişi)
+    - Görevliler (düzenli olarak toplantılara katılan kişi)
+    - Üyeler
+İsterler :
+    -Üye
+        -Etkinliklere katılabilir 
+        -Herkese açık düzenlenen toplantılara katılabilir
+        -Önerilerde bulunabilirler
+        -Etkinliklere puan verebilir.
+
+    -Görevliler
+        -Üyelere ek olarak;
+-Toplantılara katılabilecek 
+-Etkinliklerde görev alabilecek
+        -Almış oldukları görevleri listeleyebilir/ tamamladığında tik koyabilir.
+        
+    
+    -Yöneticiler
+        -Görevlilere ek olarak 
+-Dilekçeleri görebilecek ve düzenleyebilecek (bence bu olmasın :D cemile ben)
+        -Kendi alanına ait görevleri görebilecek
+        -Kendi alanında görev önerisi sunabilecek(başkana)
+        -Kendi alanı ile ilgili etkinlikleri kendi oluşturacak (en son başkan onayı gerekli)
+
+    -Başkan
+        -Yöneticilere ek olarak 
+-Etkinlik düzenleyebilir.
+        -Toplantı düzenleyebilir.(Toplantılarda yoklama alarak gelenlere tik koyacak)
+        -Bütün görevleri görüp yönetebilir.
+        -Gelen önerileri onaylayacak ya da reddedecek.
+
+
+
+
+
 
 Toplantılar
-		-Herkesin uygun olduğu günler takvimde belli olur oradan toplantı saatini başgan belirler.
-		-İki şekilde olabilir toplantılar. Asıl yönetim ve görevliler arasında, bir de katılmak isteyenlerle. 
+        -Herkesin uygun olduğu günler takvimde belli olur oradan toplantı saatini başgan belirler.
+        -İki şekilde olabilir toplantılar. Asıl yönetim ve görevliler arasında, bir de katılmak isteyenlerle. 
 -Devamlılık göstermeyenlere sistem otomatik olarak bir sonraki toplantıyı mail atmaz. (örneğin üst üste 3 toplantıya gelmemiş)
 -başkan toplantının başında gelenlere tik koyabilir 
-	
+    
 
-Etkinlikler	
-		-Yer ve zaman başkan tarafından belirlenir.
-		-Etkinliğin onaylanması için gerekli dilekçelerin tamamlanmış olması gerekir.
-		-Etkinlikler için gereken dilekçelerin önceden sisteme girilmesi gerekir. örneğin stand açma, teknik gezi, eğitim, bilişim günleri gibi farklı kategorilerde etkinlikler sistemde tanımlı olacak ve bunlar için yapılması gereken işlemler/dilekçeler/katılım belgeleri belirli olacaktır.
-			Stand açmak için , açılacak yerler ve hangi stantta hangi görevlinin duracağı bilgisi alınacak
+Etkinlikler    
+        -Yer ve zaman başkan tarafından belirlenir.
+        -Etkinliğin onaylanması için gerekli dilekçelerin tamamlanmış olması gerekir.
+        -Etkinlikler için gereken dilekçelerin önceden sisteme girilmesi gerekir. örneğin stand açma, teknik gezi, eğitim, bilişim günleri gibi farklı kategorilerde etkinlikler sistemde tanımlı olacak ve bunlar için yapılması gereken işlemler/dilekçeler/katılım belgeleri belirli olacaktır.
+            Stand açmak için , açılacak yerler ve hangi stantta hangi görevlinin duracağı bilgisi alınacak
 teknik gezi, gidilecek mekan ,tarih, iletişime geçilen kişinin mail adresi,
 ayarlanan araç bilgileri (şuradan şu saatte kalkacak)
 eğitim , tarihi saati, kimin vereceği, hangi sınıfta yapılacağı
@@ -22,11 +59,14 @@ kesinleşen konuşmacı bilgileri ,stand bilgileri(hangi şirket,alınan ücret 
 
 
 Geçmiş Belgeler
-		Dilekçe örnekleri 
-		Karar defteri örnekleri 
-		E mail örnekleri
-		Eski kulüp yöneticilerinin iletişim bilgileri 
+        Dilekçe örnekleri 
+        Karar defteri örnekleri 
+        E mail örnekleri
+        Eski kulüp yöneticilerinin iletişim bilgileri 
 
 İstatistikler
-		-kulüp etkinliklerinin önceki yıllarla karşılaştırılması
-		-kulüp üyelerinin görevlerini tamamlama oranları
+        -kulüp etkinliklerinin önceki yıllarla karşılaştırılması
+        -kulüp üyelerinin görevlerini tamamlama oranları
+
+
+
